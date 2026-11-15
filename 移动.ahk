@@ -50,6 +50,8 @@ $+!.::Send "+{End}"
 */::Send "."
 *w::SendText "^"
 *s::SendText "_"
+*d::Send "="
+*a::Send "("
 
 #HotIf
 
