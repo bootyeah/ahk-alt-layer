@@ -48,10 +48,13 @@ $+!.::Send "+{End}"
 *,::Send "8"
 *.::Send "9"
 */::Send "."
+
 *w::SendText "^"
 *s::SendText "_"
 *d::Send "="
 *a::Send "("
+*q::Send "-"
+*e::Send "+"
 
 #HotIf
 
