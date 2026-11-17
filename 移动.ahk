@@ -51,10 +51,11 @@ $+!.::Send "+{End}"
 
 *w::SendText "^"
 *s::SendText "_"
-*d::Send "="
-*a::Send "("
-*q::Send "-"
-*e::Send "+"
+*d::SendText "="
+*a::SendText "("
+*z::SendText ")"
+*q::SendText "-"
+*e::SendText "+"
 
 #HotIf
 
