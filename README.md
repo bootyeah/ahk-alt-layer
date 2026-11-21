@@ -6,7 +6,7 @@
 
 两个脚本各自独立运行。
 
-- **文本导航与编辑** · 安装 [AutoHotkey v2](https://github.com/AutoHotkey/AutoHotkey/releases)，下载并双击 [移动.ahk](./%E7%A7%BB%E5%8A%A8.ahk)。从系统托盘的 AutoHotkey 菜单可以暂停（`Suspend Hotkeys`）或退出（`Exit`）。
+- **文本导航与编辑** · 安装 [AutoHotkey v2](https://github.com/AutoHotkey/AutoHotkey/releases)，下载并双击 [my-hotkey.ahk](./my-hotkey.ahk)。从系统托盘的 AutoHotkey 菜单可以暂停（`Suspend Hotkeys`）或退出（`Exit`）。
 - **键盘鼠标** · 安装 Python（可用 3.13），下载 [keyboard_trackpad.py](./keyboard_trackpad.py)，在文件所在目录运行下方命令。脚本只用 Python 标准库和 Windows 自带的 API，无需安装第三方包。
 
 ```powershell
