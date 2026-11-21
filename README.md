@@ -74,5 +74,5 @@ py keyboard_trackpad.py
 
 ## 自定义
 
-- **文本导航** · 在 `移动.ahk` 中修改按键映射。`!` 表示 Alt，`+` 表示 Shift，`>!` 表示右 Alt。应用专属规则写在各自的 `#HotIf WinActive(...)` 区块里。保存后，在系统托盘菜单选择 `Reload Script`。
+- **文本导航** · 在 `my-hotkey.ahk` 中修改按键映射。`!` 表示 Alt，`+` 表示 Shift，`>!` 表示右 Alt。应用专属规则写在各自的 `#HotIf WinActive(...)` 区块里。保存后，在系统托盘菜单选择 `Reload Script`。
 - **键盘鼠标** · 在 `keyboard_trackpad.py` 顶部调整点按步长、长按速度、加速和滚轮灵敏度。脚本默认会在进入鼠标模式时尝试退出当前文本输入状态。将 `EXIT_INPUT_ON_CAPS` 改为 `False` 可关闭这个行为。保存后重启脚本。
